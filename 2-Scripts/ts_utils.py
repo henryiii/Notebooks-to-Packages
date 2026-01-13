@@ -1,4 +1,4 @@
-"""Time series utilities - drop-in replacements for skits functionality using sktime."""
+"""Time series utilities - drop-in replacements for skits functionality using scikit-learn."""
 
 import numpy as np
 from sklearn.base import BaseEstimator, TransformerMixin

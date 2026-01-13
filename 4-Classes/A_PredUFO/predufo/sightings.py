@@ -14,10 +14,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.pipeline import FeatureUnion
 from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import TimeSeriesSplit
-from skits.preprocessing import ReversibleImputer
-from skits.pipeline import ForecasterPipeline
-from skits.feature_extraction import (AutoregressiveTransformer,
-                                      SeasonalTransformer)
+from .ts_utils import ReversibleImputer, ForecasterPipeline, AutoregressiveTransformer, SeasonalTransformer
 
 
 class Sightings:

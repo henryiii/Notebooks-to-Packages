@@ -18,7 +18,7 @@ classifiers = [
     ]
 
 dependencies = ["pandas", "plotly", "jupyter", "imageio", "matplotlib",
-                "scikit-learn<1.1", "nbconvert", "nbformat"]
+                "scikit-learn", "nbconvert", "nbformat"]
 
 [project.urls]
 "Homepage" = "https://github.com/michal-g/Notebooks-to-Packages"

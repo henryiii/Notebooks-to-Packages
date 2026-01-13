@@ -55,10 +55,10 @@ In the newly-created folder `Notebooks-to-Packages` you'll find the workshop mat
 the environment to run the code and activate it using:
 
 ```
-conda create --name notebooks-packages -c conda-forge python=3.9 pandas plotly jupyter imageio matplotlib \
-                                                                 'scikit-learn<1.1' nbconvert nbformat
+conda create --name notebooks-packages -c conda-forge python=3.12 pandas plotly jupyter imageio matplotlib \
+                                                                 scikit-learn nbconvert nbformat
 conda activate notebooks-packages
-pip install kaleido skits
+pip install kaleido
 ```
 
 
